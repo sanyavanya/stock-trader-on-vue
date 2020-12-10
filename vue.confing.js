@@ -1,4 +1,7 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/stock-trader-on-vue/'
+    : '/',
   configureWebpack: {
     module: {
       rules: [
