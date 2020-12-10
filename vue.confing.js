@@ -13,10 +13,7 @@ module.exports = {
             'sass-loader'
           ]
         }
-      ],
-      // devServer: {
-      //   https: true
-      // }
+      ]
     },
   }
 }
