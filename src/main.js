@@ -13,7 +13,7 @@ Vue.http.options.root = "https://stock-trader-on-vue-default-rtdb.firebaseio.com
 
 const router = new VueRouter({
   routes,
-  mode: 'history'
+  // mode: 'history'
 })
 
 Vue.config.productionTip = false
